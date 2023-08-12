@@ -23,7 +23,7 @@ name                     : "kimdanji"
 description              : ""
 url                      : "https://kimdanji.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/kimdanji/kimdanji.github.io" #"kimdanji/comments" 
+repository               : "kimdanji/comments" #"https://github.com/kimdanji/kimdanji.github.io" #"kimdanji/comments" 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "utterances"
   disqus:
-    shortname            : #"kimdanji-github-io"
+    shortname            : # "kimdanji-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Kim Seungwoo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a dog."
   location         : "Republic of Korea"
   email            :
   links:
@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: #true
       share: true
       related: true
 #_pages
