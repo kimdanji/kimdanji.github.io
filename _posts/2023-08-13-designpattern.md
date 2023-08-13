@@ -5,4 +5,4 @@ categories:
 tags:
   - designpattern
 ---
-this is design pattern page
+this is design pattern page!
