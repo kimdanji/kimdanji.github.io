@@ -7,7 +7,7 @@ main:
       children:
         - title: "Programming language(C#)"
           url: /language-c#/
-        - title: "Design Pattern(C#)
+        - title: "Design Pattern(C#)"
           url: /designpattern/
   - title: "Tags"
     url: /tags/
