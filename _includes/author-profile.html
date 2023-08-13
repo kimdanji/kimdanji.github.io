@@ -249,7 +249,7 @@
                   {% for category in site.categories %}
                       {% if category %}
                       <li>
-                          <a href="/categories/#{{category[0] | slugify}}" class="">{{category[0]}} ({{category[1].size}})</a>
+                          <a href="/categories/#{{category[0] | csharp}}" class="">{{category[0]}} ({{category[1].size}})</a>
                       </li>
                       {% endif %}
                   {% endfor %}
