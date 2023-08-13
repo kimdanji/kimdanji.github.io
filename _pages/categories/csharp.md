@@ -1,7 +1,8 @@
 ---
 title: "CSharp Language"
 layout: archive
-permalink: /csharp
+permalink: /categories/csharp/
 ---
 
-Hi this is language page
+{% assign posts = site.categories %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
