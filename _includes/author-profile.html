@@ -254,6 +254,15 @@
                       {% endif %}
                   {% endfor %}
               </ul>
+              <ul>
+                    {% for category in site.categories %}
+                        {% if category %}
+                        <li>
+                            <a href="/categories/#{{category[0] | designpattern}}" class="">{{category[0]}} ({{category[1].size}})</a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
           </li>
       </ul>
       </nav>
