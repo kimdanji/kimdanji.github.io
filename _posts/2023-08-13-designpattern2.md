@@ -1,6 +1,6 @@
 ---
 title: Design Pattern 강의2
-categories: /categories/designpattern/
+categories: /designpattern/
 tag: designpattern
 ---
 
