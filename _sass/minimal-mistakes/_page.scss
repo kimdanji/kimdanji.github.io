@@ -424,6 +424,9 @@ body {
 /*
    Comments
    ========================================================================== */
+.utterances {
+  max-width: 100% !important;
+}
 
 .page__comments {
   float: left;
