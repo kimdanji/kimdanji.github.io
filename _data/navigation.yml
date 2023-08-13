@@ -3,7 +3,7 @@ main:
   - title: "Introduce"
     url: /about/
   - title: "Category"
-    url: /categories/category/
+    url: /categories/main-category/
     children:
       - title: "Programming language(C#)"
         url: /categories/csharp/
