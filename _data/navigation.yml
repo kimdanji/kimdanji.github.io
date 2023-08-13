@@ -3,11 +3,10 @@ main:
   - title: "Introduce"
     url: /about/
   - title: "Category"
-    url: /categories/csharp/
     children:
       - title: "Programming language(C#)"
-        url: /categories/language/
-      - title: "Design Pattern(C#)"
+        url: /categories/csharp/
+      - title: "Design Pattern with c#"
         url: /categories/designpattern/
   - title: "Tags"
     url: /tags/
