@@ -2,6 +2,9 @@
 title: "Design Pattern"
 categories:
   - designpattern
+tags:
+  - designpattern
 ---
 
-디자인 패턴 설명
+{% assign posts = site.categories.designpattern %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
