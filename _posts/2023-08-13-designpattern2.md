@@ -1,7 +1,9 @@
 ---
 title: Design Pattern 강의2
-categories: /designpattern/
-tag: designpattern
+categories: 
+  - designpattern
+tag:
+  - designpattern
 ---
 
 디자인패턴 두번째 강의입니다.!
