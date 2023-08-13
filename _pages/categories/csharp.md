@@ -1,5 +1,5 @@
 ---
-title: "CSharp Language"
+title: "C#"
 layout: archive
 permalink: /categories/csharp/
 author_profile: true
