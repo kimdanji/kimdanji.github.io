@@ -6,8 +6,8 @@ main:
     url: /categories/
     children:
       - title: "Programming language(C#)"
-        url: /language/
+        url: /categories/language/
       - title: "Design Pattern(C#)"
-        url: /designpattern/
+        url: /categories/designpattern/
   - title: "Tags"
     url: /tags/
