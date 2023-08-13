@@ -4,5 +4,10 @@ main:
     url: /about/
   - title: "Category"
     url: /categories/
+      children:
+        - title: "Programming language(C#)"
+          url: /language-c#/
+        - title: "Design Pattern(C#)
+          url: /designpattern/
   - title: "Tags"
     url: /tags/
