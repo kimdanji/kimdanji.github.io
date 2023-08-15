@@ -24,12 +24,6 @@
 
   <div class="author__urls-wrapper">
        <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
-        </li>
-      {% endif %}
-
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
