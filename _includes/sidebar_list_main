@@ -44,10 +44,6 @@
                   {% if category[0] == "algorithm" %}
                       <li><a href="/categories/algorithm" class="">자료구조({{category[1].size}})</a></li>
                   {% endif %}
-              {% endfor %}
-          </ul>
-          <ul>
-              {% for category in site.categories %}
                   {% if category[0] == "baekjoon" %}
                       <li><a href="/categories/baekjoon" class="">백준({{category[1].size}})</a></li>
                   {% endif %}
