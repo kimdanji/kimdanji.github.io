@@ -33,6 +33,13 @@
                   {% endif %}
               {% endfor %}
           </ul>
+          <ul>
+              {% for category in site.categories %}
+                  {% if category[0] == "cpp" %}
+                      <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
       </li>
       <li>
         <span class="nav__sub-title">알고리즘</span>
@@ -40,6 +47,33 @@
               {% for category in site.categories %}
                   {% if category[0] == "algorithm" %}
                       <li><a href="/categories/algorithm" class="">자료구조({{category[1].size}})</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
+          <ul>
+              {% for category in site.categories %}
+                  {% if category[0] == "baekjoon" %}
+                      <li><a href="/categories/baekjoon" class="">백준({{category[1].size}})</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">네트워크</span>
+          <ul>
+              {% for category in site.categories %}
+                  {% if category[0] == "tcpip" %}
+                      <li><a href="/categories/tcpip" class="">TCP/IP({{category[1].size}})</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">게임</span>
+          <ul>
+              {% for category in site.categories %}
+                  {% if category[0] == "game" %}
+                      <li><a href="/categories/game" class="">게임({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
