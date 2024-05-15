@@ -25,21 +25,21 @@
           </ul>
       </li>
       <li>
-        <span class="nav__sub-title">Design Pattern</span>
+        <span class="nav__sub-title">프로그래밍언어</span>
           <ul>
               {% for category in site.categories %}
-                  {% if category[0] == "designpattern" %}
-                      <li><a href="/categories/designpattern" class="">designpattern({{category[1].size}})</a></li>
+                  {% if category[0] == "csharp" %}
+                      <li><a href="/categories/csharp" class="">C#({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
       </li>
       <li>
-        <span class="nav__sub-title">Language</span>
+        <span class="nav__sub-title">알고리즘</span>
           <ul>
               {% for category in site.categories %}
-                  {% if category[0] == "csharp" %}
-                      <li><a href="/categories/csharp" class="">C#({{category[1].size}})</a></li>
+                  {% if category[0] == "algorithm" %}
+                      <li><a href="/categories/algorithm" class="">자료구조({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
