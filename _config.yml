@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "단지"
+title                    : "승승장구의 키보드"
 title_separator          : "-"
 subtitle                 : "version 1.0"
-name                     : "kimdanji"
+name                     : "seungseung"
 description              : ""
 url                      : "https://kimdanji.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "김단지"
-  avatar           : "/assets/danji-main.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "단지의 개발🐾노트"
+  name             : "김승"
+  avatar           : ""# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "승승장구의 키보드"
   location         : 
   email            :
   links:
