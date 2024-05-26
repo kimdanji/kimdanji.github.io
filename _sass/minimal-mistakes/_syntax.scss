@@ -43,6 +43,7 @@ figure.highlight {
     /* code */
     &.code,
     &.rouge-code {
+      background: #000; /* 백그라운드 수정 */
       padding-left: 1em;
     }
   }
