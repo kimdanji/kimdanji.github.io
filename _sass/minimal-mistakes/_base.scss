@@ -154,12 +154,11 @@ code,
 kbd,
 samp,
 pre {
-  background-color: #212121;
   font-family: $monospace;
 }
 
 pre {
-   background-color: #212121;
+   background-color: #111111;
    overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
 
