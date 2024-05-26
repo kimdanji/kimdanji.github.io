@@ -60,6 +60,10 @@ figure.highlight {
   background-color: $base06;
 }
 .highlight {
+  .cpf {
+    /* Comment */
+    color: $base00;
+  }
   .c {
     /* Comment */
     color: $base04;
