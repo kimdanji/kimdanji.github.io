@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -22,7 +22,7 @@ subtitle                 : "version 1.0"
 name                     : "pinkdumbbell"
 description              : ""
 url                      : "https://kimdanji.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "https://kimdanji.github.io/categories" # the subpath of your site, e.g. "/blog"
 repository               : "kimdanji/kimdanji.github.io" #"https://github.com/kimdanji/kimdanji.github.io" #"kimdanji/comments" 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/logo.ico/dumbbell.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "kimseungwoo"
-  avatar           : "/assets/logo.ico/workout.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/logo.ico/workout.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : 
   email            :
