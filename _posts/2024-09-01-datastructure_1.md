@@ -32,6 +32,7 @@ sitemap:
 
 
 **<C언어 스타일 배열>**
+
 ```cpp
 #include <iostream>
 
