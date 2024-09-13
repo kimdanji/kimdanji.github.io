@@ -30,8 +30,7 @@ sitemap:
 - 스택 메모리를 사용한다. 
 - 하지만 실제 사용시 고정 크기 배열이 아닌 가변 크기 배열을 주로 선호하며 vector 컨테이너를 주로 이용한다.
 
-
-**<C언어 스타일 배열>**
+**[C언어 스타일 배열]**
 
 ```cpp
 #include <iostream>
@@ -40,22 +39,22 @@ using namespace std;
 
 int main()
 {
-    int scores[5] = {50, 60, 70, 80, 90};
+  int scores[5] = {50, 60, 70, 80, 90};
 
-    int sz = sizeof(scores) / sizeof(int);
-    int s = 0;
+  int sz = sizeof(scores) / sizeof(int);
+  int s = 0;
 
-    for (int i = 0; i < sz; i++){
-        s += scores[i];
-    }
+  for (int i = 0; i < sz; i++){
+      s += scores[i];
+  }
 
-    float m = (float) s / sz;
+  float m = (float) s / sz;
 
-    cout << "Mean Score: " << m << endl;
+  cout << "Mean Score: " << m << endl;
 }
 ```
 
-**<std::array를 이용한 배열>**
+**[std::array를 이용한 배열]**
 
 ```cpp
 #include <array>
