@@ -10,20 +10,7 @@
       <li>
             <!--📂 <span>총 글수:<span> {{sum}}-->
       </li>
-      <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Github Blog</span>
-          <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-          <ul>
-              <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-              <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-              {% for category in site.categories %}
-                  {% if category[0] == "blog" %}
-                      <li><a href="/categories/blog" class="">github 블로그({{category[1].size}})</a></li>
-                  {% endif %}
-              {% endfor %}
-          </ul>
-      </li>
+      
       <li>
         <span class="nav__sub-title">프로그래밍언어</span>
           <ul>
@@ -41,8 +28,8 @@
         <span class="nav__sub-title">알고리즘</span>
           <ul>
               {% for category in site.categories %}
-                  {% if category[0] == "algorithm" %}
-                      <li><a href="/categories/algorithm" class="">자료구조({{category[1].size}})</a></li>
+                  {% if category[0] == "datastructure" %}
+                      <li><a href="/categories/datastructure" class="">자료구조({{category[1].size}})</a></li>
                   {% endif %}
                   {% if category[0] == "baekjoon" %}
                       <li><a href="/categories/baekjoon" class="">백준({{category[1].size}})</a></li>
@@ -56,16 +43,6 @@
               {% for category in site.categories %}
                   {% if category[0] == "tcpip" %}
                       <li><a href="/categories/tcpip" class="">TCP/IP({{category[1].size}})</a></li>
-                  {% endif %}
-              {% endfor %}
-          </ul>
-      </li>
-      <li>
-        <span class="nav__sub-title">게임</span>
-          <ul>
-              {% for category in site.categories %}
-                  {% if category[0] == "game" %}
-                      <li><a href="/categories/game" class="">게임({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
