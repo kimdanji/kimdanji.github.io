@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Kim Danji"
-  avatar           : "/assets/picture1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/mainimage.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : 
   email            :
